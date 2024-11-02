@@ -1,5 +1,6 @@
 ﻿using TriInspector;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnrealTeam.Common.Configs;
 
 namespace Data.Configs
@@ -20,6 +21,11 @@ namespace Data.Configs
         [field: GroupNext("Settings")]
         [field: SerializeField]
         public int TargetFrameRate { get; private set; } = 60;
+        
+        
+        [field: GroupNext("Configs")] 
+        [field: SerializeField]
+        public AssetReferenceT<PlayerConfig> PlayerConfig { get; private set; }
         
         
         [field: GroupNext("Layers")]

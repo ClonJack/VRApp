@@ -9,16 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8fb1b3c8f194082876806c5c453fc74, type: 3}
-  m_Name: AppConfig
+  m_Script: {fileID: 11500000, guid: d4da53a600794293939d4f5d70aff072, type: 3}
+  m_Name: PlayerConfig
   m_EditorClassIdentifier: 
-  <LoadScene>k__BackingField: Assets/_Project/Scenes/GameScene.unity
-  <TargetFrameRate>k__BackingField: 72
-  <PlayerConfig>k__BackingField:
-    m_AssetGUID: 3101c6d5f4bd5a742b29824b8b86f78a
+  <PlayerReference>k__BackingField:
+    m_AssetGUID: 60795c1c15fc90a4795bfbc01f68c84c
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
-  <InteractableMask>k__BackingField:
-    serializedVersion: 2
-    m_Bits: 0

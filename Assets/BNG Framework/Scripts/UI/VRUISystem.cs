@@ -146,6 +146,7 @@ namespace BNG {
             if (EventData == null || !CameraCasterReady()) {
                 return;
             }
+            if (cameraCaster== null) return;
 
             EventData.position = new Vector2(cameraCaster.pixelWidth / 2, cameraCaster.pixelHeight / 2);
 

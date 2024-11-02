@@ -1,12 +1,11 @@
-﻿using Common.Modules.Loading.Classes;
-using Common.Modules.Loading.Interfaces;
+﻿using Common.Modules.Loading.Interfaces;
 using Cysharp.Threading.Tasks;
 using Data.Configs;
 using UnrealTeam.Common.Configs;
 
 namespace UnrealTeam.Arena.GameFlow
 {
-    public class BootEntryPoint
+    public class BootEntryPoint 
     {
         private readonly IConfigLoader _configLoader;
         private readonly ISceneLoader _sceneLoader;
@@ -37,7 +36,9 @@ namespace UnrealTeam.Arena.GameFlow
         
         private async UniTask LoadConfigsData()
         {
-            _configLoader.SetSingleManually(_appConfig);
+            _configLoader.SetSingleManually(_appConfig); 
+            
+            await _configLoader.LoadSingle<PlayerConfig>(_appConfig.PlayerConfig);
         }
 
         private async UniTask LoadTargetScene() =>

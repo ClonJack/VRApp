@@ -70,7 +70,7 @@ namespace BNG {
                     }
 
                     // Only update fade if value has changed
-                    if(currentFade != lastFade) {
+                    if(Mathf.Approximately(currentFade, lastFade)) {
                         fader.SetFadeLevel(currentFade);
                         lastFade = currentFade;
                     }
@@ -85,7 +85,7 @@ namespace BNG {
                     }
 
                     // Only update fade if value has changed
-                    if (currentFade != lastFade) {
+                    if (Mathf.Approximately(currentFade, lastFade)) {
                         fader.SetFadeLevel(currentFade);
                         lastFade = currentFade;
                     }
