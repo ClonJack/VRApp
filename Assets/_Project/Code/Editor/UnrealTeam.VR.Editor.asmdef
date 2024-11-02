@@ -1,0 +1,17 @@
+{
+    "name": "UnrealTeam.VR.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0a0471484b079be408cb3a0d7fe94736",
+        "GUID:7369e6fbde9c035409ad6b300fb0b983"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
