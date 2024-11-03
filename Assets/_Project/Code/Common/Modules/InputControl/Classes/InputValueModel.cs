@@ -15,7 +15,7 @@ namespace Common.Modules.Input.Template
         public bool IsHold() => _inputAction.IsPressed();
         public void Enable() => _inputAction.Enable();
         public void Disable() => _inputAction.Disable();
-        public float Value() => _inputAction.ReadValue<float>();
-        public string NameKey => _inputAction.GetBindingDisplayString();
+        public float GetValue() => _inputAction.ReadValue<float>();
+        public string GetNameKey => _inputAction.GetBindingDisplayString();
     }
 }

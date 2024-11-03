@@ -39,13 +39,31 @@ namespace UnrealTeam.VR.Input
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""NavigateKeyboard"",
+                    ""name"": ""NavigateY"",
+                    ""type"": ""Value"",
+                    ""id"": ""8578807d-56bd-4d08-99b1-a7437444e84c"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""NavigateX"",
+                    ""type"": ""Value"",
+                    ""id"": ""afa3f0ab-50cf-487d-b493-7ccc11380b3b"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""NavigateSelect"",
                     ""type"": ""Button"",
-                    ""id"": ""b7c4e1a4-304b-4861-b704-71b92ba78590"",
+                    ""id"": ""0bfade05-5014-4e15-8314-e23d5d5943b0"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": false
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -61,13 +79,79 @@ namespace UnrealTeam.VR.Input
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": """",
-                    ""id"": ""3a5b4fef-2660-451f-a2e3-c080cf4070d8"",
-                    ""path"": """",
+                    ""name"": ""YAxis"",
+                    ""id"": ""f27aebc5-3696-43ff-ba6b-220974b8da37"",
+                    ""path"": ""1DAxis"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""NavigateKeyboard"",
+                    ""action"": ""NavigateY"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""71d3dd24-83cc-40e1-bc44-e3567e87d8d0"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NavigateY"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""f08291cc-76fc-477f-b62a-4594167aa5fc"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NavigateY"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""XAxis"",
+                    ""id"": ""be205344-9a34-487b-b056-5ca95d63f625"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NavigateX"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""1279acdf-572a-42e7-b369-e20a9b3d6532"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NavigateX"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""67604c59-4557-428d-a552-43b40e0e5f9d"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NavigateX"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ea0b2c03-dae5-4236-889c-26736b8f66cb"",
+                    ""path"": ""<Keyboard>/enter"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NavigateSelect"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -79,7 +163,9 @@ namespace UnrealTeam.VR.Input
             // Player
             m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
             m_Player_Keyboard = m_Player.FindAction("Keyboard", throwIfNotFound: true);
-            m_Player_NavigateKeyboard = m_Player.FindAction("NavigateKeyboard", throwIfNotFound: true);
+            m_Player_NavigateY = m_Player.FindAction("NavigateY", throwIfNotFound: true);
+            m_Player_NavigateX = m_Player.FindAction("NavigateX", throwIfNotFound: true);
+            m_Player_NavigateSelect = m_Player.FindAction("NavigateSelect", throwIfNotFound: true);
         }
 
         public void Dispose()
@@ -142,13 +228,17 @@ namespace UnrealTeam.VR.Input
         private readonly InputActionMap m_Player;
         private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
         private readonly InputAction m_Player_Keyboard;
-        private readonly InputAction m_Player_NavigateKeyboard;
+        private readonly InputAction m_Player_NavigateY;
+        private readonly InputAction m_Player_NavigateX;
+        private readonly InputAction m_Player_NavigateSelect;
         public struct PlayerActions
         {
             private @PlayerInputMap m_Wrapper;
             public PlayerActions(@PlayerInputMap wrapper) { m_Wrapper = wrapper; }
             public InputAction @Keyboard => m_Wrapper.m_Player_Keyboard;
-            public InputAction @NavigateKeyboard => m_Wrapper.m_Player_NavigateKeyboard;
+            public InputAction @NavigateY => m_Wrapper.m_Player_NavigateY;
+            public InputAction @NavigateX => m_Wrapper.m_Player_NavigateX;
+            public InputAction @NavigateSelect => m_Wrapper.m_Player_NavigateSelect;
             public InputActionMap Get() { return m_Wrapper.m_Player; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -161,9 +251,15 @@ namespace UnrealTeam.VR.Input
                 @Keyboard.started += instance.OnKeyboard;
                 @Keyboard.performed += instance.OnKeyboard;
                 @Keyboard.canceled += instance.OnKeyboard;
-                @NavigateKeyboard.started += instance.OnNavigateKeyboard;
-                @NavigateKeyboard.performed += instance.OnNavigateKeyboard;
-                @NavigateKeyboard.canceled += instance.OnNavigateKeyboard;
+                @NavigateY.started += instance.OnNavigateY;
+                @NavigateY.performed += instance.OnNavigateY;
+                @NavigateY.canceled += instance.OnNavigateY;
+                @NavigateX.started += instance.OnNavigateX;
+                @NavigateX.performed += instance.OnNavigateX;
+                @NavigateX.canceled += instance.OnNavigateX;
+                @NavigateSelect.started += instance.OnNavigateSelect;
+                @NavigateSelect.performed += instance.OnNavigateSelect;
+                @NavigateSelect.canceled += instance.OnNavigateSelect;
             }
 
             private void UnregisterCallbacks(IPlayerActions instance)
@@ -171,9 +267,15 @@ namespace UnrealTeam.VR.Input
                 @Keyboard.started -= instance.OnKeyboard;
                 @Keyboard.performed -= instance.OnKeyboard;
                 @Keyboard.canceled -= instance.OnKeyboard;
-                @NavigateKeyboard.started -= instance.OnNavigateKeyboard;
-                @NavigateKeyboard.performed -= instance.OnNavigateKeyboard;
-                @NavigateKeyboard.canceled -= instance.OnNavigateKeyboard;
+                @NavigateY.started -= instance.OnNavigateY;
+                @NavigateY.performed -= instance.OnNavigateY;
+                @NavigateY.canceled -= instance.OnNavigateY;
+                @NavigateX.started -= instance.OnNavigateX;
+                @NavigateX.performed -= instance.OnNavigateX;
+                @NavigateX.canceled -= instance.OnNavigateX;
+                @NavigateSelect.started -= instance.OnNavigateSelect;
+                @NavigateSelect.performed -= instance.OnNavigateSelect;
+                @NavigateSelect.canceled -= instance.OnNavigateSelect;
             }
 
             public void RemoveCallbacks(IPlayerActions instance)
@@ -194,7 +296,9 @@ namespace UnrealTeam.VR.Input
         public interface IPlayerActions
         {
             void OnKeyboard(InputAction.CallbackContext context);
-            void OnNavigateKeyboard(InputAction.CallbackContext context);
+            void OnNavigateY(InputAction.CallbackContext context);
+            void OnNavigateX(InputAction.CallbackContext context);
+            void OnNavigateSelect(InputAction.CallbackContext context);
         }
     }
 }

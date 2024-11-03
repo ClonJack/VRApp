@@ -1,5 +1,5 @@
-﻿using _Project.Code.Services;
-using BNG;
+﻿using _Project.Code.GamePlay.EventSystem;
+using _Project.Code.Services;
 using Cysharp.Threading.Tasks;
 using Data.Configs;
 using TriInspector;
@@ -16,7 +16,7 @@ namespace UnrealTeam.Arena.GameFlow
         private AppConfig _appConfig;
 
         [SerializeField] 
-        private VRUISystem _vruiSystem;
+        private CustomVRUISystem _vruiSystem;
         
         
         protected override void Configure(IContainerBuilder builder) 

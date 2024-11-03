@@ -43,6 +43,5 @@ namespace UnrealTeam.Arena.GameFlow
 
         private async UniTask LoadTargetScene() =>
             await _sceneLoader.LoadAsync(_appConfig.LoadScene);
-        
     }
 }

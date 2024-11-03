@@ -17,7 +17,7 @@ namespace Common.Modules.Input.Template
         public bool IsHold() => _inputAction.IsPressed();
         public void Enable() => _inputAction.Enable();
         public void Disable() => _inputAction.Disable();
-        public Vector2 Value2D() => _inputAction.ReadValue<Vector2>();
-        public string NameKey =>_inputAction.GetBindingDisplayString();
+        public Vector2 GetValue2D() => _inputAction.ReadValue<Vector2>();
+        public string GetNameKey =>_inputAction.GetBindingDisplayString();
     }
 }

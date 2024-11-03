@@ -31,7 +31,7 @@ namespace _Project.Code.GameFlow.Project
             builder.Register<ConfigProvider>(Lifetime.Singleton).As<IConfigLoader, IConfigAccess>();
 
         private void RegisterInput(IContainerBuilder builder) => 
-            builder.Register<InputService>(Lifetime.Singleton).As<IInputService>();
+            builder.RegisterEntryPoint<InputService>().As<IInputService>();
 
         private void RegisterOther(IContainerBuilder builder)
         {

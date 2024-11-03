@@ -924,6 +924,17 @@
                 },
                 {
                     "name": "",
+                    "id": "fb7ab9a5-dbde-4ad9-918a-062afff33eab",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "f74f16cb-737c-48d5-97fe-0d85ddb656f9",
                     "path": "<XRController>/pointerPosition",
                     "interactions": "",

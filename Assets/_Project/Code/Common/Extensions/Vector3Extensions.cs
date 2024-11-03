@@ -25,7 +25,6 @@ namespace UnrealTeam.Common.Extensions
         public static Vector3 ConvertVector2ToVector3(this Vector2 vector2)
             => new Vector3(vector2.x, 0, vector2.y);
         
-        
         public static Vector3 Divide(this Vector3 first, Vector3 second)
             => new(first.x / second.x, first.y / second.y, first.z / second.z);
     }

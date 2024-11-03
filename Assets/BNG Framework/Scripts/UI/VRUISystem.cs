@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace BNG {
@@ -45,12 +46,12 @@ namespace BNG {
         public GameObject ReleasingObject;
 
         public PointerEventData EventData { get; private set; }
-
-        Camera cameraCaster;
+        
+        public Camera CameraCaster;
         
         private GameObject _initialPressObject;
-        private bool _lastInputDown;
-        bool inputDown;
+        protected bool _lastInputDown;
+        protected bool inputDown;
 
         private static VRUISystem _instance;
         public static VRUISystem Instance {
@@ -86,10 +87,10 @@ namespace BNG {
         protected virtual void initEventSystem() {
             UpdateControllerHand(SelectedHand);
 
-            AssignCameraToAllCanvases(cameraCaster);
+            AssignCameraToAllCanvases(CameraCaster);
 
             EventData = new PointerEventData(eventSystem);
-            EventData.position = new Vector2(cameraCaster.pixelWidth / 2, cameraCaster.pixelHeight / 2);
+            EventData.position = new Vector2(CameraCaster.pixelWidth / 2, CameraCaster.pixelHeight / 2);
         }
 
         protected override void Start() {
@@ -105,22 +106,22 @@ namespace BNG {
                 }
             }
 #else
-        AssignCameraToAllCanvases(cameraCaster);
+        AssignCameraToAllCanvases(CameraCaster);
 #endif
         }
 
         void init() {
-            if(cameraCaster == null) {
+            if(CameraCaster == null) {
 
                 // Create the camera required for the caster.
                 // We can reduce the fov and disable the camera component for performance
                 var go = new GameObject("CameraCaster");
-                cameraCaster = go.AddComponent<Camera>();
-                cameraCaster.stereoTargetEye = StereoTargetEyeMask.None;
-                cameraCaster.fieldOfView = 5f;
-                cameraCaster.nearClipPlane = 0.01f;
-                cameraCaster.clearFlags = CameraClearFlags.Nothing;
-                cameraCaster.enabled = false;
+                CameraCaster = go.AddComponent<Camera>();
+                CameraCaster.stereoTargetEye = StereoTargetEyeMask.None;
+                CameraCaster.fieldOfView = 5f;
+                CameraCaster.nearClipPlane = 0.01f;
+                CameraCaster.clearFlags = CameraClearFlags.Nothing;
+                CameraCaster.enabled = false;
 
                 // Add PhysicsRaycaster so other objects can subscribe to IPointer events
                 if(AddPhysicsRaycaster) {
@@ -143,12 +144,11 @@ namespace BNG {
 
         public void DoProcess() {
             // Input isn't ready if this Camera Caster's gameObject isn't active
-            if (EventData == null || !CameraCasterReady()) {
+            if (EventData == null || !CameraCasterReady() || CameraCaster== null) {
                 return;
             }
-            if (cameraCaster== null) return;
 
-            EventData.position = new Vector2(cameraCaster.pixelWidth / 2, cameraCaster.pixelHeight / 2);
+            EventData.position = new Vector2(CameraCaster.pixelWidth / 2, CameraCaster.pixelHeight / 2);
 
             eventSystem.RaycastAll(EventData, m_RaycastResultCache);
 
@@ -169,9 +169,9 @@ namespace BNG {
                 }
             }
 
-            // Press Events
+           // Press Events
             inputDown = InputReady();
-
+            
             // On Trigger Down > TriggerDownValue this frame but not last
             if (inputDown && _lastInputDown == false) {
                 PressDown();
@@ -184,7 +184,7 @@ namespace BNG {
             else {
                 Release();
             }
-
+            
             _lastInputDown = inputDown;
         }
 
@@ -217,7 +217,7 @@ namespace BNG {
         /// </summary>
         /// <returns></returns>
         public virtual bool CameraCasterReady() {
-            if (cameraCaster != null && !cameraCaster.gameObject.activeInHierarchy) {
+            if (CameraCaster != null && !CameraCaster.gameObject.activeInHierarchy) {
                 return false;
             }
 
@@ -314,7 +314,7 @@ namespace BNG {
                 AddCanvasToCamera(canvas, cameraCaster);
             }
 #else
-        AddCanvasToCamera(canvas, cameraCaster);
+        AddCanvasToCamera(canvas, CameraCaster);
 #endif
         }
 
@@ -331,14 +331,14 @@ namespace BNG {
 
             // Setup the Transform
             if (hand == ControllerHand.Left && LeftPointerTransform != null) {
-                cameraCaster.transform.parent = LeftPointerTransform;
-                cameraCaster.transform.localPosition = Vector3.zero;
-                cameraCaster.transform.localEulerAngles = Vector3.zero;
+                CameraCaster.transform.parent = LeftPointerTransform;
+                CameraCaster.transform.localPosition = Vector3.zero;
+                CameraCaster.transform.localEulerAngles = Vector3.zero;
             }
             else if (hand == ControllerHand.Right && RightPointerTransform != null) {
-                cameraCaster.transform.parent = RightPointerTransform;
-                cameraCaster.transform.localPosition = Vector3.zero;
-                cameraCaster.transform.localEulerAngles = Vector3.zero;
+                CameraCaster.transform.parent = RightPointerTransform;
+                CameraCaster.transform.localPosition = Vector3.zero;
+                CameraCaster.transform.localEulerAngles = Vector3.zero;
             }
         }
     }

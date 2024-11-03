@@ -33,11 +33,16 @@ namespace _Project.Code.GamePlay.PlayerController.Factory
         public async UniTask<PlayerBehaviour> Create()
         {
             var playerConfig = _configAccess.GetSingle<PlayerConfig>();
+            
             var playerPrefab = await _assetProvider.Load<GameObject>(playerConfig.PlayerRef); 
+            
             var playerInstance = _objectResolver.Instantiate(playerPrefab,
                 _objectsProvider.SpawnPoint.position, _objectsProvider.SpawnPoint.rotation);
+            
             var player = playerInstance.GetComponent<PlayerBehaviour>();
+            
             _objectsProvider.PlayerBehaviour = player;
+            
             return player;
         }
     }

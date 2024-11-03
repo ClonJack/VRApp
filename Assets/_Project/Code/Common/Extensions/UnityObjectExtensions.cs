@@ -30,5 +30,24 @@ namespace UnrealTeam.Common.Extensions
 
             slider.value = normalizeValue;
         }
+        
+        public static Transform FindNearestChild(this Transform target, Transform current)
+        {
+            Transform nearestChild = null;
+            float minDistanceSquared = Mathf.Infinity;
+            
+            foreach (Transform child in target)
+            {
+                float distanceSquared = (current.position - child.position).sqrMagnitude;
+
+                if (distanceSquared < minDistanceSquared)
+                {
+                    minDistanceSquared = distanceSquared;
+                    nearestChild = child;
+                }
+            }
+
+            return nearestChild;
+        }
     }
 }

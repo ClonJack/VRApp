@@ -22216,7 +22216,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <ScreenFader>k__BackingField: {fileID: 4276642494963342732}
+  <BngPlayerController>k__BackingField: {fileID: 8416742705891564269}
   _pointKeyboard: {fileID: 7269746128499672840}
+  _cameraCaster: {fileID: 0}
 --- !u!1 &2683195717451339092
 GameObject:
   m_ObjectHideFlags: 0
