@@ -11,6 +11,6 @@ namespace Data.Configs
     {
         [Title("Reference Behaviour")]
         [field: SerializeField]
-        public AssetComponentReference<PlayerBehaviour> PlayerReference { get; private set; }
+        public AssetComponentReference<PlayerBehaviour> PlayerRef { get; private set; }
     }
 }

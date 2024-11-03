@@ -21822,6 +21822,7 @@ Transform:
   - {fileID: 4131647239348163300}
   - {fileID: 5629437627864530927}
   - {fileID: 6199442880613412805}
+  - {fileID: 7269746128499672840}
   m_Father: {fileID: 2683195716759056386}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!81 &2683195716758234192
@@ -22215,6 +22216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <ScreenFader>k__BackingField: {fileID: 4276642494963342732}
+  _pointKeyboard: {fileID: 7269746128499672840}
 --- !u!1 &2683195717451339092
 GameObject:
   m_ObjectHideFlags: 0
@@ -61609,6 +61611,37 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &8229245530677195298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7269746128499672840}
+  m_Layer: 0
+  m_Name: PointKeyboard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7269746128499672840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8229245530677195298}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.1, z: 0.65}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2683195716758988412}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8230023315880072302
 GameObject:
   m_ObjectHideFlags: 0

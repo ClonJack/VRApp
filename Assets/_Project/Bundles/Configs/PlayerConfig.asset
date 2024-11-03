@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4da53a600794293939d4f5d70aff072, type: 3}
   m_Name: PlayerConfig
   m_EditorClassIdentifier: 
-  <PlayerReference>k__BackingField:
+  <PlayerRef>k__BackingField:
     m_AssetGUID: 60795c1c15fc90a4795bfbc01f68c84c
     m_SubObjectName: 
     m_SubObjectType: 

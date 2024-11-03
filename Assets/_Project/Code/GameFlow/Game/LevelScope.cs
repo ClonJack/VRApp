@@ -1,4 +1,5 @@
-﻿using _Project.Code.GamePlay.PlayerController.Factory;
+﻿using _Project.Code.GamePlay.Keyboard.Behaviours;
+using _Project.Code.GamePlay.PlayerController.Factory;
 using _Project.Code.Services;
 using Cysharp.Threading.Tasks;
 using TriInspector;
@@ -11,7 +12,11 @@ namespace _Project.Code.GameFlow.Game
     public class LevelScope : LifetimeScope
     {
         [Title("Ref")]
-        [SerializeField] private Transform _spawnPoint;
+        [SerializeField] 
+        private Transform _spawnPoint;
+
+        [SerializeField] 
+        private KeyboardBehaviour _keyboardBehaviour;
         
         
         protected override void Configure(IContainerBuilder builder)
@@ -39,6 +44,7 @@ namespace _Project.Code.GameFlow.Game
         {
             var objectsProvider = resolver.Resolve<ObjectsProvider>();
             objectsProvider.SpawnPoint = _spawnPoint;
+            objectsProvider.KeyboardBehaviour = _keyboardBehaviour;
         }
         
         private void ExecuteEntryPoint(IObjectResolver resolver)

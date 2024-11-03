@@ -1,20 +1,20 @@
 ﻿using System.Threading;
 using _Project.Code.GamePlay.PlayerController.Factory;
+using _Project.Code.Services;
 using Cysharp.Threading.Tasks;
-using UnrealTeam.Common.Configs;
 
 namespace _Project.Code.GameFlow.Game
 {
     public class LevelEntryPoint 
     {
         private readonly PlayerFactory _playerFactory;
-        private readonly IConfigAccess _configAccess;
-        
-        
-        public LevelEntryPoint(PlayerFactory playerFactory, IConfigAccess configAccess)
+        private readonly ObjectsProvider _objectsProvider;
+
+
+        public LevelEntryPoint(PlayerFactory playerFactory,ObjectsProvider objectsProvider)
         {
-            _configAccess = configAccess;
             _playerFactory = playerFactory;
+            _objectsProvider = objectsProvider;
         }
 
         public async UniTask Execute(CancellationToken cancellationToken)
@@ -24,6 +24,8 @@ namespace _Project.Code.GameFlow.Game
             await UniTask.DelayFrame(2, cancellationToken: cancellationToken);
 #endif
             var player = await _playerFactory.Create();
+            
+            _objectsProvider.KeyboardBehaviour.gameObject.SetActive(true);
             
         }
     }

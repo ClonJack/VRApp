@@ -157,6 +157,7 @@ MonoBehaviour:
   autoRun: 1
   autoInjectGameObjects: []
   _appConfig: {fileID: 11400000, guid: e388c483ef6214d40ada25fa821d1701, type: 2}
+  _vruiSystem: {fileID: 1401384465748310211}
 --- !u!4 &961240562
 Transform:
   m_ObjectHideFlags: 0
@@ -271,6 +272,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1401384465748310209}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1401384465748310211 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1401384465721441411, guid: f36f23d9eb361b84c8e3ec3a25b28bd9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1401384465748310209}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401384465748310210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b98ba066fd33ded4aa6474529973e6fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
