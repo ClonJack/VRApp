@@ -51,12 +51,11 @@ namespace UnrealTeam.Editor
             if (!_bootToggleChecked)
                 return;
             
-            Scene currentScene = SceneManager.GetActiveScene();
+            var currentScene = SceneManager.GetActiveScene();
             if (IsBootScene(currentScene))
                 return;
             
-            if (IsSceneInBuild(currentScene))
-                LoadBootScene();
+            LoadBootScene();
         }
 
         private static bool IsBootScene(Scene currentScene) 
