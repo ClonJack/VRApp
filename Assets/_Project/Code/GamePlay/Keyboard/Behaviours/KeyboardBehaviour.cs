@@ -45,14 +45,15 @@ namespace UnrealTeam.VR.GamePlay.Behaviours
         
         public void UpdateNavigateKey()
         {
-            var currentKey = _objectsProvider.VrUISystem.ReleasingObject == null
-                ? _currentMap[0].transform
-                : _objectsProvider.VrUISystem.ReleasingObject.transform;
+            if (_objectsProvider.VrUISystem.ReleasingObject == null)
+            {
+                _objectsProvider.VrUISystem.SetManuallyHover(_currentMap[0].transform.GetChild(0).gameObject);
+                return;
+            }
             
+            var targetKey = _objectsProvider.VrUISystem.ReleasingObject.transform;
             var navigation = Vector2Int.RoundToInt(new Vector2( _inputService.NavigateX.GetValue(),
                 _inputService.NavigateY.GetValue()));
-            
-            var targetKey = currentKey;
             
             if (_inputService.NavigateY.IsPressed())
                 targetKey = GetNewRow(targetKey, navigation.y);
@@ -65,6 +66,9 @@ namespace UnrealTeam.VR.GamePlay.Behaviours
         
         public void UpdateMap(int count) => 
             _currentMap = _mapRows[count];
+
+        public void SetSetManuallyKey(GameObject target) =>
+            _objectsProvider.VrUISystem.SetManuallyHover(target);
         
         private Transform GetNewRow(Transform currentKey, int offset)
         {

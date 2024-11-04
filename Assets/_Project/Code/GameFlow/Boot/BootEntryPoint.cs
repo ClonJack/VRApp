@@ -1,4 +1,5 @@
 ﻿using Cysharp.Threading.Tasks;
+using UnityEngine;
 using UnrealTeam.Common.Modules.Configs;
 using UnrealTeam.Common.Modules.Loading;
 using UnrealTeam.VR.Data.Configs;
@@ -37,6 +38,8 @@ namespace UnrealTeam.VR.GameFlow
         private async UniTask LoadConfigsData()
         {
             _configLoader.SetSingleManually(_appConfig); 
+            
+            Application.targetFrameRate = _appConfig.TargetFrameRate;
             
             await _configLoader.LoadSingle<PlayerConfig>(_appConfig.PlayerConfig);
         }

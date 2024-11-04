@@ -965,7 +965,7 @@ GameObject:
   - component: {fileID: 2652859042187907746}
   - component: {fileID: 2093290014298477094}
   - component: {fileID: 4618773974104373974}
-  - component: {fileID: 3598688064832796385}
+  - component: {fileID: 8837258101186995489}
   m_Layer: 5
   m_Name: Button _
   m_TagString: Untagged
@@ -1090,7 +1090,7 @@ MonoBehaviour:
   Keycode: _
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &3598688064832796385
+--- !u!114 &8837258101186995489
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1099,24 +1099,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 402392491057005821}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8258018392644128688}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &444193339386720916
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,9 +1215,9 @@ RectTransform:
   - {fileID: 7565657457743346869}
   m_Father: {fileID: 6415696309636545311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 314.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6707012800382197172
@@ -1746,7 +1731,7 @@ GameObject:
   - component: {fileID: 4144701942119361415}
   - component: {fileID: 739944781051170471}
   - component: {fileID: 4426139024487424132}
-  - component: {fileID: 1155007427329266023}
+  - component: {fileID: 7085273398776746810}
   m_Layer: 5
   m_Name: Button .
   m_TagString: Untagged
@@ -1871,7 +1856,7 @@ MonoBehaviour:
   Keycode: .
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &1155007427329266023
+--- !u!114 &7085273398776746810
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1880,24 +1865,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 815708378267121635}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8696456186944618799}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &839606145533506281
 GameObject:
   m_ObjectHideFlags: 0
@@ -1911,7 +1881,7 @@ GameObject:
   - component: {fileID: 4502766304837856435}
   - component: {fileID: 372961579638614399}
   - component: {fileID: 8341117353186062389}
-  - component: {fileID: 7292915025421518190}
+  - component: {fileID: 6150474756890012870}
   m_Layer: 5
   m_Name: Button ;
   m_TagString: Untagged
@@ -2036,7 +2006,7 @@ MonoBehaviour:
   Keycode: ;
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &7292915025421518190
+--- !u!114 &6150474756890012870
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2045,24 +2015,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 839606145533506281}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4536976339003315457}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &895000901087962711
 GameObject:
   m_ObjectHideFlags: 0
@@ -2334,9 +2289,9 @@ RectTransform:
   - {fileID: 2989381754088217405}
   m_Father: {fileID: 7067223531347703812}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 616.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 120, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4730737927058677489
@@ -2485,9 +2440,9 @@ RectTransform:
   - {fileID: 358837331835638333}
   m_Father: {fileID: 7067223531347703812}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 116.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8427241005848389375
@@ -2925,7 +2880,7 @@ GameObject:
   - component: {fileID: 5078324757827165788}
   - component: {fileID: 539426618707503026}
   - component: {fileID: 6821205689573802264}
-  - component: {fileID: 7905542559234661305}
+  - component: {fileID: 1673236382528371109}
   m_Layer: 5
   m_Name: Button 9
   m_TagString: Untagged
@@ -3050,7 +3005,7 @@ MonoBehaviour:
   Keycode: 9
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &7905542559234661305
+--- !u!114 &1673236382528371109
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3059,24 +3014,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1473038337652548775}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7668809830394578506}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1477482955989215215
 GameObject:
   m_ObjectHideFlags: 0
@@ -3169,7 +3109,7 @@ GameObject:
   - component: {fileID: 4483146020629097490}
   - component: {fileID: 5404093080207438364}
   - component: {fileID: 4536976339003315457}
-  - component: {fileID: 419016835988807926}
+  - component: {fileID: 722675402453016937}
   m_Layer: 5
   m_Name: Button ?
   m_TagString: Untagged
@@ -3294,7 +3234,7 @@ MonoBehaviour:
   Keycode: '?'
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &419016835988807926
+--- !u!114 &722675402453016937
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3303,24 +3243,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1479181847642275119}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4536976339003315457}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1500239685943412336
 GameObject:
   m_ObjectHideFlags: 0
@@ -3626,9 +3551,9 @@ RectTransform:
   - {fileID: 6543539811573159795}
   m_Father: {fileID: 7067223531347703812}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 58.825867, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4262203353400005492
@@ -3753,7 +3678,7 @@ GameObject:
   - component: {fileID: 7111079739082337539}
   - component: {fileID: 1714800010433628078}
   - component: {fileID: 3855440550144358278}
-  - component: {fileID: 3864269869267890676}
+  - component: {fileID: 1523691875369203617}
   m_Layer: 5
   m_Name: Button $
   m_TagString: Untagged
@@ -3878,7 +3803,7 @@ MonoBehaviour:
   Keycode: $
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &3864269869267890676
+--- !u!114 &1523691875369203617
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3887,24 +3812,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1767348685848982762}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8258018392644128688}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1775117717822136910
 GameObject:
   m_ObjectHideFlags: 0
@@ -3918,7 +3828,7 @@ GameObject:
   - component: {fileID: 1655129071152096207}
   - component: {fileID: 6813371167392349880}
   - component: {fileID: 898633105830306647}
-  - component: {fileID: 6934983337973312247}
+  - component: {fileID: 1990203324598934630}
   m_Layer: 5
   m_Name: Button #
   m_TagString: Untagged
@@ -4043,7 +3953,7 @@ MonoBehaviour:
   Keycode: '#'
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &6934983337973312247
+--- !u!114 &1990203324598934630
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4052,24 +3962,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1775117717822136910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8258018392644128688}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1776071557051141002
 GameObject:
   m_ObjectHideFlags: 0
@@ -4083,7 +3978,7 @@ GameObject:
   - component: {fileID: 8248080808862758062}
   - component: {fileID: 3667090346426475025}
   - component: {fileID: 8696456186944618799}
-  - component: {fileID: 2924211256945783801}
+  - component: {fileID: 4803588377409280065}
   m_Layer: 5
   m_Name: Button ;
   m_TagString: Untagged
@@ -4208,7 +4103,7 @@ MonoBehaviour:
   Keycode: ;
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &2924211256945783801
+--- !u!114 &4803588377409280065
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4217,24 +4112,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1776071557051141002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8696456186944618799}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1892896039596714603
 GameObject:
   m_ObjectHideFlags: 0
@@ -4248,7 +4128,7 @@ GameObject:
   - component: {fileID: 4747954545050260962}
   - component: {fileID: 670989927708376722}
   - component: {fileID: 2419876727434376133}
-  - component: {fileID: 7381720619478598013}
+  - component: {fileID: 6931456991132660461}
   m_Layer: 5
   m_Name: Button 5
   m_TagString: Untagged
@@ -4373,7 +4253,7 @@ MonoBehaviour:
   Keycode: 5
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &7381720619478598013
+--- !u!114 &6931456991132660461
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4382,24 +4262,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1892896039596714603}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7668809830394578506}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1942604660449737475
 GameObject:
   m_ObjectHideFlags: 0
@@ -4413,7 +4278,7 @@ GameObject:
   - component: {fileID: 7616605590787603524}
   - component: {fileID: 7836923744905549528}
   - component: {fileID: 4566334484454194870}
-  - component: {fileID: 9157035262983076179}
+  - component: {fileID: 4998748248277127808}
   m_Layer: 5
   m_Name: Button <
   m_TagString: Untagged
@@ -4538,7 +4403,7 @@ MonoBehaviour:
   Keycode: <
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &9157035262983076179
+--- !u!114 &4998748248277127808
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4547,24 +4412,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1942604660449737475}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8696456186944618799}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1944898000145366929
 GameObject:
   m_ObjectHideFlags: 0
@@ -4682,6 +4532,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 860299207532948313}
+        m_TargetAssemblyTypeName: UnrealTeam.VR.GamePlay.Behaviours.KeyboardBehaviour,
+          UnrealTeam.VR.Global
+        m_MethodName: SetSetManuallyKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 7447562975818135550}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &6946596718285553000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4747,6 +4610,19 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 860299207532948313}
+        m_TargetAssemblyTypeName: UnrealTeam.VR.GamePlay.Behaviours.KeyboardBehaviour,
+          UnrealTeam.VR.Global
+        m_MethodName: SetSetManuallyKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 7447562975818135550}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4898,9 +4774,9 @@ RectTransform:
   - {fileID: 8828478775183179912}
   m_Father: {fileID: 2597414423218103742}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 406.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2351299555828572599
@@ -5049,9 +4925,9 @@ RectTransform:
   - {fileID: 4981130904712408147}
   m_Father: {fileID: 7067223531347703812}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 174.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7784339284951622615
@@ -5428,9 +5304,9 @@ RectTransform:
   - {fileID: 2572785098366308885}
   m_Father: {fileID: 6415696309636545311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 488.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5584136491207874345
@@ -5634,7 +5510,7 @@ GameObject:
   - component: {fileID: 6374434198844174358}
   - component: {fileID: 4558266543678366755}
   - component: {fileID: 2536802504639314399}
-  - component: {fileID: 2176143415374968584}
+  - component: {fileID: 2323123599069694366}
   m_Layer: 5
   m_Name: Button /
   m_TagString: Untagged
@@ -5759,7 +5635,7 @@ MonoBehaviour:
   Keycode: /
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &2176143415374968584
+--- !u!114 &2323123599069694366
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5768,24 +5644,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2418747684938533045}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8696456186944618799}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &2448857514959593571
 GameObject:
   m_ObjectHideFlags: 0
@@ -5799,7 +5660,7 @@ GameObject:
   - component: {fileID: 134294602041352049}
   - component: {fileID: 1262477445178172623}
   - component: {fileID: 4727742909032536245}
-  - component: {fileID: 4643717596815938960}
+  - component: {fileID: 692482556067781720}
   m_Layer: 5
   m_Name: 'Button :'
   m_TagString: Untagged
@@ -5924,7 +5785,7 @@ MonoBehaviour:
   Keycode: 
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &4643717596815938960
+--- !u!114 &692482556067781720
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5933,24 +5794,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2448857514959593571}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8696456186944618799}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &2530370320638970587
 GameObject:
   m_ObjectHideFlags: 0
@@ -6043,7 +5889,7 @@ GameObject:
   - component: {fileID: 8614612095179776375}
   - component: {fileID: 2403633209867003996}
   - component: {fileID: 4712136219502308718}
-  - component: {fileID: 1949758443588389701}
+  - component: {fileID: 6963378922311476456}
   m_Layer: 5
   m_Name: Button @
   m_TagString: Untagged
@@ -6168,7 +6014,7 @@ MonoBehaviour:
   Keycode: '@'
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &1949758443588389701
+--- !u!114 &6963378922311476456
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6177,24 +6023,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2572429202507309140}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4536976339003315457}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &2577798283834810729
 GameObject:
   m_ObjectHideFlags: 0
@@ -6575,9 +6406,9 @@ RectTransform:
   - {fileID: 7718817038361373022}
   m_Father: {fileID: 7067223531347703812}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 232.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4328093818403343123
@@ -6702,7 +6533,7 @@ GameObject:
   - component: {fileID: 7638843030273202886}
   - component: {fileID: 6983025708613568582}
   - component: {fileID: 2149197686364496830}
-  - component: {fileID: 1766188523664232172}
+  - component: {fileID: 6125603154081041393}
   m_Layer: 5
   m_Name: Button *
   m_TagString: Untagged
@@ -6827,7 +6658,7 @@ MonoBehaviour:
   Keycode: '*'
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &1766188523664232172
+--- !u!114 &6125603154081041393
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6836,24 +6667,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2693799501032945240}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4536976339003315457}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &2694732846289376442
 GameObject:
   m_ObjectHideFlags: 0
@@ -7003,9 +6819,9 @@ RectTransform:
   - {fileID: 2273439804721027568}
   m_Father: {fileID: 6415696309636545311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 645.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 130, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2261160978541443576
@@ -7421,9 +7237,9 @@ RectTransform:
   - {fileID: 6832630712010780797}
   m_Father: {fileID: 2597414423218103742}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 464.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7324162873634043783
@@ -7548,7 +7364,7 @@ GameObject:
   - component: {fileID: 4462839363119175514}
   - component: {fileID: 8534490159610401618}
   - component: {fileID: 6487507278559788771}
-  - component: {fileID: 5468009537225392612}
+  - component: {fileID: 2219716659201916555}
   m_Layer: 5
   m_Name: Spacebar
   m_TagString: Untagged
@@ -7673,7 +7489,7 @@ MonoBehaviour:
   Keycode: Space
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &5468009537225392612
+--- !u!114 &2219716659201916555
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7682,24 +7498,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2957764054761598061}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8696456186944618799}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &3019937007421310309
 GameObject:
   m_ObjectHideFlags: 0
@@ -7894,9 +7695,9 @@ RectTransform:
   - {fileID: 4599414867097024288}
   m_Father: {fileID: 7964468842841224430}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 653.0409, y: -40}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &907694443580465041
@@ -8604,9 +8405,9 @@ RectTransform:
   - {fileID: 4517406487075002486}
   m_Father: {fileID: 7067223531347703812}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 522.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4306679542219895612
@@ -8913,9 +8714,9 @@ RectTransform:
   - {fileID: 6297844503987907052}
   m_Father: {fileID: 6415696309636545311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 198.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &981953818952444958
@@ -9064,9 +8865,9 @@ RectTransform:
   - {fileID: 4007567990158312304}
   m_Father: {fileID: 7067223531347703812}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 406.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5419518116919901923
@@ -9191,7 +8992,7 @@ GameObject:
   - component: {fileID: 1319820393344363247}
   - component: {fileID: 7374541348016154697}
   - component: {fileID: 2352825803751895155}
-  - component: {fileID: 5738425248036699923}
+  - component: {fileID: 8040878155296775498}
   m_Layer: 5
   m_Name: 'Button :'
   m_TagString: Untagged
@@ -9316,7 +9117,7 @@ MonoBehaviour:
   Keycode: ':'
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &5738425248036699923
+--- !u!114 &8040878155296775498
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9325,24 +9126,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3700652859639169168}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4536976339003315457}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &3736063847108754745
 GameObject:
   m_ObjectHideFlags: 0
@@ -9909,9 +9695,9 @@ RectTransform:
   - {fileID: 990003018166328764}
   m_Father: {fileID: 7964468842841224430}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 537.0409, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5137076843059930798
@@ -10061,9 +9847,9 @@ RectTransform:
   - {fileID: 4465789915032880793}
   m_Father: {fileID: 7964468842841224430}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 355.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 294.43, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2475887232169453959
@@ -10287,9 +10073,9 @@ RectTransform:
   - {fileID: 1488665436281111796}
   m_Father: {fileID: 7964468842841224430}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 116.61087, y: -40}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1245177801695165087
@@ -10493,7 +10279,7 @@ GameObject:
   - component: {fileID: 8837242238030845951}
   - component: {fileID: 173158491203708486}
   - component: {fileID: 3310950263862486551}
-  - component: {fileID: 6651764653102512058}
+  - component: {fileID: 8553511476914486051}
   m_Layer: 5
   m_Name: Button )
   m_TagString: Untagged
@@ -10618,7 +10404,7 @@ MonoBehaviour:
   Keycode: )
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &6651764653102512058
+--- !u!114 &8553511476914486051
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10627,24 +10413,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4314733712003061988}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8258018392644128688}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &4318465108123503311
 GameObject:
   m_ObjectHideFlags: 0
@@ -10733,7 +10504,7 @@ GameObject:
   - component: {fileID: 5797622400902168281}
   - component: {fileID: 7062307577982658215}
   - component: {fileID: 7668809830394578506}
-  - component: {fileID: 5415080817764076194}
+  - component: {fileID: 7700538679735479704}
   m_Layer: 5
   m_Name: Button 0
   m_TagString: Untagged
@@ -10858,7 +10629,7 @@ MonoBehaviour:
   Keycode: 0
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &5415080817764076194
+--- !u!114 &7700538679735479704
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10867,24 +10638,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4329514209612708174}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7668809830394578506}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &4386872084474081718
 GameObject:
   m_ObjectHideFlags: 0
@@ -11076,9 +10832,9 @@ RectTransform:
   - {fileID: 6465222281714451452}
   m_Father: {fileID: 7964468842841224430}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 595.0409, y: -40}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9021640360864342681
@@ -11461,9 +11217,9 @@ RectTransform:
   - {fileID: 1180829450595645321}
   m_Father: {fileID: 6415696309636545311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 82.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6060135014616336354
@@ -11588,7 +11344,7 @@ GameObject:
   - component: {fileID: 8420197838827684926}
   - component: {fileID: 1839922645737473539}
   - component: {fileID: 4751780708827507860}
-  - component: {fileID: 8741439056581687310}
+  - component: {fileID: 9010936528155726508}
   m_Layer: 5
   m_Name: Button %
   m_TagString: Untagged
@@ -11713,7 +11469,7 @@ MonoBehaviour:
   Keycode: '%'
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &8741439056581687310
+--- !u!114 &9010936528155726508
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11722,24 +11478,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4593030626867240432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8258018392644128688}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &4715518967608291308
 GameObject:
   m_ObjectHideFlags: 0
@@ -12014,9 +11755,9 @@ RectTransform:
   - {fileID: 3569854226332244248}
   m_Father: {fileID: 6415696309636545311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 140.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &973035247144973019
@@ -12165,9 +11906,9 @@ RectTransform:
   - {fileID: 2632776314561316069}
   m_Father: {fileID: 6415696309636545311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 24.825867, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1468552603993685160
@@ -12292,7 +12033,7 @@ GameObject:
   - component: {fileID: 1681657469769157750}
   - component: {fileID: 3460640731724777559}
   - component: {fileID: 2401193091342492292}
-  - component: {fileID: 5986743033101638209}
+  - component: {fileID: 4622357118292807129}
   m_Layer: 5
   m_Name: Button >
   m_TagString: Untagged
@@ -12417,7 +12158,7 @@ MonoBehaviour:
   Keycode: '>'
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &5986743033101638209
+--- !u!114 &4622357118292807129
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12426,24 +12167,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4978059460282684514}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8696456186944618799}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &4994251124842973107
 GameObject:
   m_ObjectHideFlags: 0
@@ -12457,7 +12183,7 @@ GameObject:
   - component: {fileID: 2443397643642269407}
   - component: {fileID: 4384312917806618209}
   - component: {fileID: 5080168229576464399}
-  - component: {fileID: 182061272771374371}
+  - component: {fileID: 8281764651067101547}
   m_Layer: 5
   m_Name: Button 8
   m_TagString: Untagged
@@ -12582,7 +12308,7 @@ MonoBehaviour:
   Keycode: 8
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &182061272771374371
+--- !u!114 &8281764651067101547
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12591,24 +12317,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4994251124842973107}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7668809830394578506}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &5009315477638745935
 GameObject:
   m_ObjectHideFlags: 0
@@ -12853,7 +12564,7 @@ GameObject:
   - component: {fileID: 3135689382303721614}
   - component: {fileID: 7766584544762051142}
   - component: {fileID: 485742288854701384}
-  - component: {fileID: 1528227732448692724}
+  - component: {fileID: 6003599509455604271}
   m_Layer: 5
   m_Name: Button 7
   m_TagString: Untagged
@@ -12978,7 +12689,7 @@ MonoBehaviour:
   Keycode: 7
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &1528227732448692724
+--- !u!114 &6003599509455604271
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12987,24 +12698,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5306064980151474773}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7668809830394578506}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &5344482782378142668
 GameObject:
   m_ObjectHideFlags: 0
@@ -13200,9 +12896,9 @@ RectTransform:
   - {fileID: 4652326960849217015}
   m_Father: {fileID: 2597414423218103742}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 116.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3791308751763046240
@@ -13645,9 +13341,9 @@ RectTransform:
   - {fileID: 9010943549951741573}
   m_Father: {fileID: 6415696309636545311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 372.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8262011397281269615
@@ -13851,7 +13547,7 @@ GameObject:
   - component: {fileID: 7787715006853141542}
   - component: {fileID: 4599846170178991547}
   - component: {fileID: 8267016419278027060}
-  - component: {fileID: 2592852112718282377}
+  - component: {fileID: 3756537615954636556}
   m_Layer: 5
   m_Name: Button !
   m_TagString: Untagged
@@ -13976,7 +13672,7 @@ MonoBehaviour:
   Keycode: '!'
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &2592852112718282377
+--- !u!114 &3756537615954636556
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13985,24 +13681,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5793000064268856739}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4536976339003315457}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &5814244743789928735
 GameObject:
   m_ObjectHideFlags: 0
@@ -14040,9 +13721,9 @@ RectTransform:
   - {fileID: 3555726327951138978}
   m_Father: {fileID: 2597414423218103742}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 232.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3767440373211100032
@@ -14167,7 +13848,7 @@ GameObject:
   - component: {fileID: 3631625116031063285}
   - component: {fileID: 6249024657754807370}
   - component: {fileID: 4952617311265178602}
-  - component: {fileID: 3979685406181772777}
+  - component: {fileID: 223255566288330024}
   m_Layer: 5
   m_Name: Button 4
   m_TagString: Untagged
@@ -14292,7 +13973,7 @@ MonoBehaviour:
   Keycode: 4
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &3979685406181772777
+--- !u!114 &223255566288330024
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14301,24 +13982,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5991611325843478829}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7668809830394578506}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &5997306222809813822
 GameObject:
   m_ObjectHideFlags: 0
@@ -14356,9 +14022,9 @@ RectTransform:
   - {fileID: 3616788455964635575}
   m_Father: {fileID: 6415696309636545311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 546.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3433373312089781375
@@ -14714,7 +14380,7 @@ GameObject:
   - component: {fileID: 1943657097664064988}
   - component: {fileID: 346922565129540013}
   - component: {fileID: 8338990794372941908}
-  - component: {fileID: 3566798723738210472}
+  - component: {fileID: 8193293649327031423}
   m_Layer: 5
   m_Name: Button 3
   m_TagString: Untagged
@@ -14839,7 +14505,7 @@ MonoBehaviour:
   Keycode: 3
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &3566798723738210472
+--- !u!114 &8193293649327031423
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14848,24 +14514,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6149597413738640416}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7668809830394578506}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &6162914863066132171
 GameObject:
   m_ObjectHideFlags: 0
@@ -15295,9 +14946,9 @@ RectTransform:
   - {fileID: 6798041025817004512}
   m_Father: {fileID: 2597414423218103742}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 174.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2102437790832102351
@@ -15580,7 +15231,7 @@ GameObject:
   - component: {fileID: 3065711989738278452}
   - component: {fileID: 3245868531977413202}
   - component: {fileID: 8258018392644128688}
-  - component: {fileID: 5524261426851891976}
+  - component: {fileID: 8379037334182293834}
   m_Layer: 5
   m_Name: Button /
   m_TagString: Untagged
@@ -15705,7 +15356,7 @@ MonoBehaviour:
   Keycode: /
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &5524261426851891976
+--- !u!114 &8379037334182293834
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15714,24 +15365,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6439127330708219527}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8258018392644128688}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &6478017697293941647
 GameObject:
   m_ObjectHideFlags: 0
@@ -15769,9 +15405,9 @@ RectTransform:
   - {fileID: 7187373253010722565}
   m_Father: {fileID: 6415696309636545311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 256.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &805022954737396917
@@ -15975,7 +15611,7 @@ GameObject:
   - component: {fileID: 5162843216805133659}
   - component: {fileID: 7756901315600283750}
   - component: {fileID: 7320736271115328919}
-  - component: {fileID: 9160946853818634823}
+  - component: {fileID: 5350163484014678267}
   m_Layer: 5
   m_Name: Button &
   m_TagString: Untagged
@@ -16100,7 +15736,7 @@ MonoBehaviour:
   Keycode: '&'
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &9160946853818634823
+--- !u!114 &5350163484014678267
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16109,24 +15745,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6490091633499986011}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4536976339003315457}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &6514541185456936668
 GameObject:
   m_ObjectHideFlags: 0
@@ -16684,7 +16305,7 @@ GameObject:
   - component: {fileID: 3841892849646924893}
   - component: {fileID: 7264227256805234351}
   - component: {fileID: 7301135448588598122}
-  - component: {fileID: 8012104353653850833}
+  - component: {fileID: 5187114666460496515}
   m_Layer: 5
   m_Name: Button '
   m_TagString: Untagged
@@ -16809,7 +16430,7 @@ MonoBehaviour:
   Keycode: ''''
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &8012104353653850833
+--- !u!114 &5187114666460496515
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16818,24 +16439,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6698475999581666983}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4536976339003315457}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &6732273163076344162
 GameObject:
   m_ObjectHideFlags: 0
@@ -17004,7 +16610,7 @@ GameObject:
   - component: {fileID: 1202110557149737835}
   - component: {fileID: 3386121215640097500}
   - component: {fileID: 5108560095874384011}
-  - component: {fileID: 683145944024599959}
+  - component: {fileID: 2454362598591333697}
   m_Layer: 5
   m_Name: Button (
   m_TagString: Untagged
@@ -17129,7 +16735,7 @@ MonoBehaviour:
   Keycode: (
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &683145944024599959
+--- !u!114 &2454362598591333697
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17138,24 +16744,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6777827206720397417}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8258018392644128688}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &6780702017658858745
 GameObject:
   m_ObjectHideFlags: 0
@@ -17193,9 +16784,9 @@ RectTransform:
   - {fileID: 5868975598400480127}
   m_Father: {fileID: 2597414423218103742}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 290.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6600084817796954818
@@ -17423,9 +17014,9 @@ RectTransform:
   - {fileID: 1200579075873850624}
   m_Father: {fileID: 7067223531347703812}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 290.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9118804733576012089
@@ -17550,7 +17141,7 @@ GameObject:
   - component: {fileID: 4904162795751606906}
   - component: {fileID: 5500859579798476132}
   - component: {fileID: 2428090423923090678}
-  - component: {fileID: 8514010695255709660}
+  - component: {fileID: 4761419638016969267}
   m_Layer: 5
   m_Name: Button -
   m_TagString: Untagged
@@ -17675,7 +17266,7 @@ MonoBehaviour:
   Keycode: '-'
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &8514010695255709660
+--- !u!114 &4761419638016969267
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17684,24 +17275,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6991025443452232116}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8258018392644128688}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &7000209201399792085
 GameObject:
   m_ObjectHideFlags: 0
@@ -17715,7 +17291,7 @@ GameObject:
   - component: {fileID: 2770242720644465320}
   - component: {fileID: 7651451529638720275}
   - component: {fileID: 2444366624881430953}
-  - component: {fileID: 4517435115965835807}
+  - component: {fileID: 3593105267324998863}
   m_Layer: 5
   m_Name: Button 1
   m_TagString: Untagged
@@ -17840,7 +17416,7 @@ MonoBehaviour:
   Keycode: 1
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &4517435115965835807
+--- !u!114 &3593105267324998863
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17849,24 +17425,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7000209201399792085}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7668809830394578506}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &7009658071587364780
 GameObject:
   m_ObjectHideFlags: 0
@@ -18356,9 +17917,9 @@ RectTransform:
   - {fileID: 1714830691385698158}
   m_Father: {fileID: 7964468842841224430}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 58.61087, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3716376648232413972
@@ -18438,6 +17999,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 860299207532948313}
+        m_TargetAssemblyTypeName: UnrealTeam.VR.GamePlay.Behaviours.KeyboardBehaviour,
+          UnrealTeam.VR.Global
+        m_MethodName: SetSetManuallyKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1944898000145366929}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &331284715522446781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18504,6 +18078,19 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 860299207532948313}
+        m_TargetAssemblyTypeName: UnrealTeam.VR.GamePlay.Behaviours.KeyboardBehaviour,
+          UnrealTeam.VR.Global
+        m_MethodName: SetSetManuallyKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1944898000145366929}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -19083,9 +18670,9 @@ RectTransform:
   - {fileID: 4963282334935751342}
   m_Father: {fileID: 7067223531347703812}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 464.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1582704348248157856
@@ -19471,9 +19058,9 @@ RectTransform:
   - {fileID: 7258802734086612807}
   m_Father: {fileID: 2597414423218103742}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 558.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 120, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4916133665250546825
@@ -19677,7 +19264,7 @@ GameObject:
   - component: {fileID: 1389307784144826625}
   - component: {fileID: 1973226076808373704}
   - component: {fileID: 2655412629215313172}
-  - component: {fileID: 8726973529309139168}
+  - component: {fileID: 9133672257855477675}
   m_Layer: 5
   m_Name: Button 6
   m_TagString: Untagged
@@ -19802,7 +19389,7 @@ MonoBehaviour:
   Keycode: 6
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &8726973529309139168
+--- !u!114 &9133672257855477675
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19811,24 +19398,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8314896103374971432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7668809830394578506}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &8320805007015527856
 GameObject:
   m_ObjectHideFlags: 0
@@ -19945,9 +19517,9 @@ RectTransform:
   - {fileID: 5405776166469140544}
   m_Father: {fileID: 6415696309636545311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 430.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6815558059026395755
@@ -20175,9 +19747,9 @@ RectTransform:
   - {fileID: 5912461726492873653}
   m_Father: {fileID: 2597414423218103742}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 348.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8005038636962214729
@@ -20326,9 +19898,9 @@ RectTransform:
   - {fileID: 6315941923655999613}
   m_Father: {fileID: 7964468842841224430}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 174.61087, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3028594039765861198
@@ -20532,7 +20104,7 @@ GameObject:
   - component: {fileID: 6424093828697632356}
   - component: {fileID: 5055242171843209494}
   - component: {fileID: 6682212157656651632}
-  - component: {fileID: 2983926780326585176}
+  - component: {fileID: 1459337560519291004}
   m_Layer: 5
   m_Name: Button "
   m_TagString: Untagged
@@ -20657,7 +20229,7 @@ MonoBehaviour:
   Keycode: '"'
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &2983926780326585176
+--- !u!114 &1459337560519291004
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20666,24 +20238,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8568467901043324444}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4536976339003315457}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &8627678904288247047
 GameObject:
   m_ObjectHideFlags: 0
@@ -20857,7 +20414,7 @@ GameObject:
   - component: {fileID: 3717980388209684523}
   - component: {fileID: 6013905685282810191}
   - component: {fileID: 7443433264065072631}
-  - component: {fileID: 5870721287265129552}
+  - component: {fileID: 4884304996625244840}
   m_Layer: 5
   m_Name: Button 2
   m_TagString: Untagged
@@ -20982,7 +20539,7 @@ MonoBehaviour:
   Keycode: 2
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &5870721287265129552
+--- !u!114 &4884304996625244840
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20991,24 +20548,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8829283783596257641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7668809830394578506}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &8842321656663383498
 GameObject:
   m_ObjectHideFlags: 0
@@ -21022,7 +20564,7 @@ GameObject:
   - component: {fileID: 362931359271235444}
   - component: {fileID: 651163135663002728}
   - component: {fileID: 5648551876067883830}
-  - component: {fileID: 8719594225144997248}
+  - component: {fileID: 6707604690748972227}
   m_Layer: 5
   m_Name: Button +
   m_TagString: Untagged
@@ -21147,7 +20689,7 @@ MonoBehaviour:
   Keycode: +
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &8719594225144997248
+--- !u!114 &6707604690748972227
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21156,24 +20698,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8842321656663383498}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8258018392644128688}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &8869672801124448622
 GameObject:
   m_ObjectHideFlags: 0
@@ -21211,9 +20738,9 @@ RectTransform:
   - {fileID: 3577836311880177817}
   m_Father: {fileID: 7067223531347703812}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 348.82587, y: -40}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6198231287343064355
@@ -21528,7 +21055,7 @@ GameObject:
   - component: {fileID: 7674582258190127684}
   - component: {fileID: 3568117655031616124}
   - component: {fileID: 2750858399812765584}
-  - component: {fileID: 2270662843530743496}
+  - component: {fileID: 6392645385720063916}
   m_Layer: 5
   m_Name: Button =
   m_TagString: Untagged
@@ -21653,7 +21180,7 @@ MonoBehaviour:
   Keycode: =
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &2270662843530743496
+--- !u!114 &6392645385720063916
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21662,24 +21189,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8938489639402702916}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8258018392644128688}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &8954978306258791558
 GameObject:
   m_ObjectHideFlags: 0
@@ -21693,7 +21205,7 @@ GameObject:
   - component: {fileID: 2382249689580263700}
   - component: {fileID: 8466359343193080690}
   - component: {fileID: 2133417886575753501}
-  - component: {fileID: 1737768949230583426}
+  - component: {fileID: 7673310763650233331}
   m_Layer: 5
   m_Name: Button ,
   m_TagString: Untagged
@@ -21818,7 +21330,7 @@ MonoBehaviour:
   Keycode: ','
   KeycodeShift: 
   UseShiftKey: 0
---- !u!114 &1737768949230583426
+--- !u!114 &7673310763650233331
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21827,24 +21339,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8954978306258791558}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebdcfbb115141949a0f68dc703f914d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a1a0aa884ab4a70b5a333cb66cc5d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8696456186944618799}
-        m_TargetAssemblyTypeName: BNG.VRKeyboardKey, VRIF
-        m_MethodName: OnKeyHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &8958242272203044596
 GameObject:
   m_ObjectHideFlags: 0

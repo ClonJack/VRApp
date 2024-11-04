@@ -13,12 +13,9 @@ MonoBehaviour:
   m_Name: AppConfig
   m_EditorClassIdentifier: 
   <LoadScene>k__BackingField: Assets/_Project/Scenes/GameScene.unity
-  <TargetFrameRate>k__BackingField: 72
+  <TargetFrameRate>k__BackingField: 90
   <PlayerConfig>k__BackingField:
     m_AssetGUID: 3101c6d5f4bd5a742b29824b8b86f78a
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
-  <InteractableMask>k__BackingField:
-    serializedVersion: 2
-    m_Bits: 0
