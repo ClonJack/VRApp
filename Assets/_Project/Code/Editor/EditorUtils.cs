@@ -4,7 +4,7 @@ using System.Reflection;
 using UnityEditor;
 using Object = UnityEngine.Object;
 
-namespace UnrealTeam.Common.Utils
+namespace UnrealTeam.Editor
 {
     public static class EditorUtils
     {

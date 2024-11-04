@@ -1,16 +1,15 @@
-﻿using _Project.Code.Common.Additional;
-using _Project.Code.GamePlay.PlayerController;
-using TriInspector;
+﻿using TriInspector;
 using UnityEngine;
-using UnrealTeam.Common.Configs;
+using UnrealTeam.Common.Additional;
+using UnrealTeam.Common.Modules.Configs;
+using UnrealTeam.VR.GamePlay.Behaviours;
 
-namespace Data.Configs
+namespace UnrealTeam.VR.Data.Configs
 {   
     [CreateAssetMenu(menuName = "Configs/Player", fileName = nameof(PlayerConfig))]
     public class PlayerConfig : SoSingleConfig
     {
-        [Title("Reference Behaviour")]
-        [field: SerializeField]
+        [field: Title("Reference Behaviour"), SerializeField]
         public AssetComponentReference<PlayerBehaviour> PlayerRef { get; private set; }
     }
 }

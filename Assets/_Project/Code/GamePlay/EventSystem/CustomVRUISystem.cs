@@ -1,11 +1,11 @@
-﻿using _Project.Code.GamePlay.Keyboard.Behaviours;
-using BNG;
-using Common.Modules.Input;
+﻿using BNG;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnrealTeam.VR.GamePlay.Behaviours;
+using UnrealTeam.VR.Services.Input;
 using VContainer;
 
-namespace _Project.Code.GamePlay.EventSystem
+namespace UnrealTeam.VR.GamePlay
 {
     public class CustomVRUISystem : VRUISystem
     {
@@ -20,7 +20,7 @@ namespace _Project.Code.GamePlay.EventSystem
         
         public override void Process()
         {
-            if (_inputService.NavigateSelect.IsPressed())
+            if (_inputService.NavigatePress.IsPressed())
             {
                 var vrKey = ReleasingObject.GetComponent<IInteract>(); 
                 vrKey.DoInteract();

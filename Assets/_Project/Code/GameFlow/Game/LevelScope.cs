@@ -1,18 +1,17 @@
-﻿using _Project.Code.GamePlay.Keyboard.Behaviours;
-using _Project.Code.GamePlay.PlayerController.Factory;
-using _Project.Code.Services;
-using Cysharp.Threading.Tasks;
+﻿using Cysharp.Threading.Tasks;
 using TriInspector;
 using UnityEngine;
+using UnrealTeam.VR.GamePlay.Behaviours;
+using UnrealTeam.VR.GamePlay.Factory;
+using UnrealTeam.VR.Services;
 using VContainer;
 using VContainer.Unity;
 
-namespace _Project.Code.GameFlow.Game
+namespace UnrealTeam.VR.GameFlow
 {
     public class LevelScope : LifetimeScope
     {
-        [Title("Ref")]
-        [SerializeField] 
+        [SerializeField, Title("Ref")] 
         private Transform _spawnPoint;
 
         [SerializeField] 

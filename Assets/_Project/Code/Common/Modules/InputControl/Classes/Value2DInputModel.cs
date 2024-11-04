@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Common.Modules.Input.Template
+namespace UnrealTeam.Common.Modules.InputControl
 {
     public class Value2DInputModel : IValue2DInputModel
     {

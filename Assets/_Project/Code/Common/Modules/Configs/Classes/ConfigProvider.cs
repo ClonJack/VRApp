@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using Cysharp.Threading.Tasks;
 using UnityEngine.AddressableAssets;
-using UnrealTeam.Common.Assets;
 using UnrealTeam.Common.Extensions;
+using UnrealTeam.Common.Modules.Assets;
 using Object = UnityEngine.Object;
 
-namespace UnrealTeam.Common.Configs
+namespace UnrealTeam.Common.Modules.Configs
 {
     public class ConfigProvider : IConfigLoader, IConfigAccess
     {

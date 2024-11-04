@@ -1,14 +1,13 @@
-﻿using _Project.Code.Services;
-using Common.Modules.Input;
-using Common.Modules.Loading.Classes;
-using Common.Modules.Loading.Interfaces;
-using UnityEngine.AddressableAssets;
-using UnrealTeam.Common.Assets;
-using UnrealTeam.Common.Configs;
+﻿using UnityEngine.AddressableAssets;
+using UnrealTeam.Common.Modules.Assets;
+using UnrealTeam.Common.Modules.Configs;
+using UnrealTeam.Common.Modules.Loading;
+using UnrealTeam.VR.Services;
+using UnrealTeam.VR.Services.Input;
 using VContainer;
 using VContainer.Unity;
 
-namespace _Project.Code.GameFlow.Project
+namespace UnrealTeam.VR.GameFlow
 {
     public class ProjectScope : LifetimeScope
     {
@@ -38,5 +37,4 @@ namespace _Project.Code.GameFlow.Project
             builder.Register<ObjectsProvider>(Lifetime.Singleton);
         }
     }
-
 }

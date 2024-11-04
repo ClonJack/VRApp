@@ -1,16 +1,17 @@
-﻿using _Project.Code.Services;
-using BNG;
-using Common.Modules.Input;
+﻿using BNG;
 using TriInspector;
 using UnityEngine;
+using UnrealTeam.VR.Services;
+using UnrealTeam.VR.Services.Input;
 using VContainer;
 
-namespace _Project.Code.GamePlay.PlayerController
+namespace UnrealTeam.VR.GamePlay.Behaviours
 {
     public class PlayerBehaviour : MonoBehaviour
     {
         [field: Title("Ref"), SerializeField]
         public ScreenFader ScreenFader { get; private set; } 
+        
         [field: SerializeField]
         public BNGPlayerController BngPlayerController { get; private set; }
 
@@ -22,6 +23,7 @@ namespace _Project.Code.GamePlay.PlayerController
         
 
         private Quaternion _lastRotation;
+        
         
         private IInputService _inputService;
         private ObjectsProvider _objectsProvider;
@@ -37,7 +39,7 @@ namespace _Project.Code.GamePlay.PlayerController
         public void Update()
         {
             UpdateKeyboardState();
-            UpdateCameraCasterState();
+            UpdateNavigateState();
         }
 
         private void UpdateKeyboardState()
@@ -47,7 +49,7 @@ namespace _Project.Code.GamePlay.PlayerController
             
         }
 
-        private  void UpdateCameraCasterState()
+        private  void UpdateNavigateState()
         {
             if (BngPlayerController== null || 
                 _objectsProvider.VrUISystem.CameraCaster== null)
@@ -64,7 +66,6 @@ namespace _Project.Code.GamePlay.PlayerController
                 _objectsProvider.VrUISystem.CameraCaster.gameObject.SetActive(true);
                 _lastRotation =  BngPlayerController.transform.rotation;
             }
-          
         }
     }
 }

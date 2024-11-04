@@ -1,6 +1,6 @@
 ﻿using Cysharp.Threading.Tasks;
 
-namespace Common.Modules.Loading.Interfaces
+namespace UnrealTeam.Common.Modules.Loading
 {
     public interface ISceneLoader
     {

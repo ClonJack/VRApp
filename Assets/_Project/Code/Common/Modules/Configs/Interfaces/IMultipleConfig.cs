@@ -1,4 +1,4 @@
-﻿namespace UnrealTeam.Common.Configs
+﻿namespace UnrealTeam.Common.Modules.Configs
 {
     public interface IMultipleConfig
     {

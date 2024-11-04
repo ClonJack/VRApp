@@ -2,7 +2,7 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace UnrealTeam.Common.Assets
+namespace UnrealTeam.Common.Modules.Assets
 {
     public interface IAssetProvider<in TReference>
     {

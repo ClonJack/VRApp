@@ -5,7 +5,7 @@ using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using Object = UnityEngine.Object;
 
-namespace _Project.Code.Common.Additional
+namespace UnrealTeam.Common.Additional
 {
     /// <summary>
     /// Creates an AssetReference that is restricted to having a specific Component.

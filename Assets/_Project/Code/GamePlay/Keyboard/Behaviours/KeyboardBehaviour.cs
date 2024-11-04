@@ -1,23 +1,20 @@
 ﻿using System.Collections.Generic;
-using _Project.Code.Services;
 using AYellowpaper.SerializedCollections;
-using Common.Modules.Input;
 using TriInspector;
 using UnityEngine;
 using UnrealTeam.Common.Extensions;
+using UnrealTeam.VR.Services;
+using UnrealTeam.VR.Services.Input;
 using VContainer;
 
-namespace _Project.Code.GamePlay.Keyboard.Behaviours
+namespace UnrealTeam.VR.GamePlay.Behaviours
 {
     public class KeyboardBehaviour : MonoBehaviour
     {
-        [Title("Ref")]
-        [SerializeField] 
+        [Title("Ref"), SerializeField]
         private SerializedDictionary<int, List<GameObject>> _mapRows = new();
         
-        
-        [Title("Settings")]
-        [SerializeField]
+        [Title("Settings"), SerializeField]
         private Vector3 offset;
         
         

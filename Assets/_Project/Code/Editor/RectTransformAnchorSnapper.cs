@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace UnrealTeam.VR.Editor
+namespace UnrealTeam.Editor
 {
     /// <summary>
     /// Tool for automatically setting anchors to UI Element size

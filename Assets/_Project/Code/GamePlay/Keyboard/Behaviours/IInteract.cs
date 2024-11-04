@@ -1,4 +1,4 @@
-﻿namespace _Project.Code.GamePlay.Keyboard.Behaviours
+﻿namespace UnrealTeam.VR.GamePlay.Behaviours
 {
     public interface IInteract
     {

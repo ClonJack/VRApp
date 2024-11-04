@@ -7,7 +7,7 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.ResourceManagement.ResourceLocations;
 using Object = UnityEngine.Object;
 
-namespace UnrealTeam.Common.Assets
+namespace UnrealTeam.Common.Modules.Assets
 {
     public class AddressableAssetProvider : IAssetProvider<AssetReference>
     {

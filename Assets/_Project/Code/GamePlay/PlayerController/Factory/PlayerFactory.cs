@@ -1,14 +1,15 @@
-﻿using _Project.Code.Services;
-using Cysharp.Threading.Tasks;
-using Data.Configs;
+﻿using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
-using UnrealTeam.Common.Assets;
-using UnrealTeam.Common.Configs;
+using UnrealTeam.Common.Modules.Assets;
+using UnrealTeam.Common.Modules.Configs;
+using UnrealTeam.VR.Data.Configs;
+using UnrealTeam.VR.GamePlay.Behaviours;
+using UnrealTeam.VR.Services;
 using VContainer;
 using VContainer.Unity;
 
-namespace _Project.Code.GamePlay.PlayerController.Factory
+namespace UnrealTeam.VR.GamePlay.Factory
 {
     public class PlayerFactory
     {

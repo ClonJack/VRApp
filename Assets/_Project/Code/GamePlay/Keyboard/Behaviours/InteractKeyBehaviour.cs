@@ -1,7 +1,7 @@
 ﻿using BNG;
 using UnityEngine;
 
-namespace _Project.Code.GamePlay.Keyboard.Behaviours
+namespace UnrealTeam.VR.GamePlay.Behaviours
 {
     public class InteractKeyBehaviour : MonoBehaviour, IInteract
     {

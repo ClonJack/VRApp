@@ -4,10 +4,9 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityToolbarExtender;
-using UnrealTeam.Common.Utils;
 using UnrealTeam.VR.Data.Constant;
 
-namespace UnrealTeam.VR.Editor
+namespace UnrealTeam.Editor
 {
     [InitializeOnLoad]
     public class EditorToolbar

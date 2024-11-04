@@ -76,3 +76,10 @@ crashlytics-build.properties
 .idea/.idea.VR.dir/.idea/vcs.xml
 .idea/.idea.VR.dir/.idea/workspace.xml
 .idea/
+UnrealTeam.Common.Global.csproj.DotSettings
+UnrealTeam.Common.Modules.Assets.csproj.DotSettings
+UnrealTeam.Common.Modules.Configs.csproj.DotSettings
+UnrealTeam.Common.Modules.InputControl.csproj.DotSettings
+UnrealTeam.Common.Modules.Loading.csproj.DotSettings
+UnrealTeam.VR.Editor.csproj.DotSettings
+UnrealTeam.VR.Global.csproj.DotSettings

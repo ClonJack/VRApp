@@ -1,20 +1,20 @@
 using System;
-using Common.Modules.Input.Template;
+using UnrealTeam.Common.Modules.InputControl;
 using UnrealTeam.VR.Input;
 
-
-namespace Common.Modules.Input
+namespace UnrealTeam.VR.Services.Input
 {
     public class InputService : IInputService, IDisposable
     {
-        private PlayerInputMap _playerInput;
-        
         public IValueInputModel Keyboard { get; private set; }
         public IValueInputModel NavigateY { get; private set; }
         public IValueInputModel NavigateX { get; private set; }
+        public IKeyInputModel NavigatePress { get; private set; }
         
-        public IKeyInputModel NavigateSelect { get; private set; }
+        
+        private PlayerInputMap _playerInput;
 
+        
         public InputService()
         {
             _playerInput = new PlayerInputMap(); 
@@ -23,13 +23,12 @@ namespace Common.Modules.Input
             Keyboard = new InputValueModel(_playerInput.Player.Keyboard);
             NavigateY = new InputValueModel(_playerInput.Player.NavigateY);
             NavigateX = new InputValueModel(_playerInput.Player.NavigateX);
-            NavigateSelect = new InputKeyModel(_playerInput.Player.NavigateSelect);
+            NavigatePress = new InputKeyModel(_playerInput.Player.NavigateSelect);
         }
 
         public void Dispose()
         {
             _playerInput?.Dispose();
         }
-        
     }
 }

@@ -2,7 +2,7 @@ using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
-namespace UnrealTeam.Common.Configs
+namespace UnrealTeam.Common.Modules.Configs
 {
     public interface IConfigLoader
     {

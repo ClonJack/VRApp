@@ -1,14 +1,13 @@
 ﻿using TriInspector;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
-using UnrealTeam.Common.Configs;
+using UnrealTeam.Common.Modules.Configs;
 
-namespace Data.Configs
+namespace UnrealTeam.VR.Data.Configs
 {
     [HideMonoScript]
     [DeclareBoxGroup("Scenes")]
     [DeclareBoxGroup("Configs")]
-    [DeclareBoxGroup("Layers")]
     [DeclareBoxGroup("Settings")]
     [CreateAssetMenu(menuName = "Configs/App", fileName = nameof(AppConfig), order = 50)]
     public class AppConfig : SoSingleConfig
@@ -26,10 +25,5 @@ namespace Data.Configs
         [field: GroupNext("Configs")] 
         [field: SerializeField]
         public AssetReferenceT<PlayerConfig> PlayerConfig { get; private set; }
-        
-        
-        [field: GroupNext("Layers")]
-        [field: SerializeField] 
-        public LayerMask InteractableMask { get; private set; }
     }
 }

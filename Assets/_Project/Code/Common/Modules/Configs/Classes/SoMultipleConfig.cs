@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace UnrealTeam.Common.Configs
+namespace UnrealTeam.Common.Modules.Configs
 {
     public abstract class SoMultipleConfig : ScriptableObject, IMultipleConfig
     {

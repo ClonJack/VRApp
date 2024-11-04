@@ -1,9 +1,9 @@
 ﻿using System.Threading;
-using _Project.Code.GamePlay.PlayerController.Factory;
-using _Project.Code.Services;
 using Cysharp.Threading.Tasks;
+using UnrealTeam.VR.GamePlay.Factory;
+using UnrealTeam.VR.Services;
 
-namespace _Project.Code.GameFlow.Game
+namespace UnrealTeam.VR.GameFlow
 {
     public class LevelEntryPoint 
     {

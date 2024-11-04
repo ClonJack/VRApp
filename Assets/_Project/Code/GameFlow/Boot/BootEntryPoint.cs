@@ -1,9 +1,9 @@
-﻿using Common.Modules.Loading.Interfaces;
-using Cysharp.Threading.Tasks;
-using Data.Configs;
-using UnrealTeam.Common.Configs;
+﻿using Cysharp.Threading.Tasks;
+using UnrealTeam.Common.Modules.Configs;
+using UnrealTeam.Common.Modules.Loading;
+using UnrealTeam.VR.Data.Configs;
 
-namespace UnrealTeam.Arena.GameFlow
+namespace UnrealTeam.VR.GameFlow
 {
     public class BootEntryPoint 
     {

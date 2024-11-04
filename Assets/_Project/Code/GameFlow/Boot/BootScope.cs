@@ -1,13 +1,13 @@
-﻿using _Project.Code.GamePlay.EventSystem;
-using _Project.Code.Services;
-using Cysharp.Threading.Tasks;
-using Data.Configs;
+﻿using Cysharp.Threading.Tasks;
 using TriInspector;
 using UnityEngine;
+using UnrealTeam.VR.Data.Configs;
+using UnrealTeam.VR.GamePlay;
+using UnrealTeam.VR.Services;
 using VContainer;
 using VContainer.Unity;
 
-namespace UnrealTeam.Arena.GameFlow
+namespace UnrealTeam.VR.GameFlow
 {
     public class BootScope : LifetimeScope
     {

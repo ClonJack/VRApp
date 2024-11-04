@@ -1,8 +1,7 @@
-﻿using Common.Modules.Loading.Interfaces;
-using Cysharp.Threading.Tasks;
+﻿using Cysharp.Threading.Tasks;
 using UnityEngine.SceneManagement;
 
-namespace Common.Modules.Loading.Classes
+namespace UnrealTeam.Common.Modules.Loading
 {
     public class SceneLoader : ISceneLoader
     {

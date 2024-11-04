@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-namespace _Project.Code.GamePlay.Keyboard.Behaviours
+namespace UnrealTeam.VR.GamePlay.Behaviours
 {
     public class InteractBehaviour : MonoBehaviour, IInteract
     {

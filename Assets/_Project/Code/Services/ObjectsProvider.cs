@@ -1,9 +1,8 @@
-﻿using _Project.Code.GamePlay.EventSystem;
-using _Project.Code.GamePlay.Keyboard.Behaviours;
-using _Project.Code.GamePlay.PlayerController;
-using UnityEngine;
+﻿using UnityEngine;
+using UnrealTeam.VR.GamePlay;
+using UnrealTeam.VR.GamePlay.Behaviours;
 
-namespace _Project.Code.Services
+namespace UnrealTeam.VR.Services
 {
     public class ObjectsProvider
     {
